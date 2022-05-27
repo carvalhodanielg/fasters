@@ -2,27 +2,41 @@ import * as S from './Depoimentos Style'
 import { depoimentos } from '../../helpers/depoimentos'
 import left from '../../assets/images/depoimentos/left.png'
 import right from '../../assets/images/depoimentos/right.png'
+import { useState } from 'react'
 
 
 export const Depoimentos = () => {
+
+    const [index, setIndex] = useState<number>(0);
+
+    const handleClickRight = () => {
+
+        if(index === (depoimentos.length-1)){
+            setIndex(0);
+        }else{
+            setIndex(index+1) 
+        }
+        
+    }
+
     return (
-        <S.Depoimentos>
+        <S.Depoimentos index={index}>
             <h1>Depoimentos</h1>
 
-            <img id='foto' src={depoimentos[0].foto} alt="" />
+            <img id='foto' src={depoimentos[index].foto} alt="" />
 
             <div className='text'>
                 <img className='arrow' src={left} alt="" />
                 
                 <div className='depoimento'>
-                    <p>{depoimentos[0].depoimento}</p>
+                    <p>{depoimentos[index].depoimento}</p>
                 </div>
                 
-                <img className='arrow' src={right} alt="" />
+                <img className='arrow' src={right} alt="" onClick={handleClickRight}/>
             </div>
 
-            <p id='nome'>{depoimentos[0].nome}</p>
-            <p id='profissao'>{depoimentos[0].profissao}</p>
+            <p id='nome'>{depoimentos[index].nome}</p>
+            <p id='profissao'>{depoimentos[index].profissao}</p>
 
             <div className='seletor'>
                 <svg id='1' width="10" height="10">

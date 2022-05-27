@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 import backCarousel from '../../assets/images/backCarousel.png'
 
-export const Depoimentos = styled.section`
-    min-height: 608px;
+export const Depoimentos = styled.section<{index: number}>`
+    height: 608px;
     background-image: url(${backCarousel});
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,6 +35,7 @@ export const Depoimentos = styled.section`
 
         .depoimento{
             width: 80%;
+            height: 150px;
             font-family: 'Cormorant', serif;
             font-weight: 300;
             font-size: 26px;
@@ -76,7 +77,7 @@ export const Depoimentos = styled.section`
                 fill: transparent;
                 margin: 20px;
                 
-                &:nth-child(1){
+                &:nth-child(${props => props.index}){
                     fill: #014561;
                 }
 

@@ -8,11 +8,12 @@ export const Camisaria = styled.section<{row: boolean}>`
     align-items: center;
     flex-direction: ${props => (props.row ? 'row-reverse' : 'row')};
     flex-wrap: wrap;
+   
     .text{
-        height: 65%;
+        height: 60%;
         width: 560px;
         border: 1px solid #E5E5E5;
-        
+        padding-bottom: 40px;
         /* border-left: none; */
         padding-left: 62px;
  
