@@ -16,9 +16,9 @@ export const Header  = () => {
     const changeHeader = () => {
         window.scrollY > 500 ? setHeaderStatus(true) : setHeaderStatus(false);
     }
-    
-    const scrollTo500 = () => {
-        return window.scrollTo({top: 500, behavior: 'smooth'})
+    //scroll desktop
+    const scrollTo537 = () => {
+        return window.scrollTo({top: 537, behavior: 'smooth'})
     }
     const scrollTo900 = () => {
         return window.scrollTo({top: 900, behavior: 'smooth'})
@@ -27,11 +27,32 @@ export const Header  = () => {
         return window.scrollTo({top: 2200, behavior: 'smooth'})
     }
     const scrollTo3300 = () => {
+        setOpened(false)
         return window.scrollTo({top: 3300, behavior: 'smooth'})
     }
     const scrollTo3906 = () => {
         return window.scrollTo({top: 3906, behavior: 'smooth'})
     }
+
+    //scroll mobile
+    const scrollTo565 = () => {
+        setOpened(false)
+        return window.scrollTo({top: 565, behavior: 'smooth'})
+    }
+    
+    const scrollTo4051 = () => {
+        setOpened(false)
+        return window.scrollTo({top: 4051, behavior: 'smooth'})
+    }
+     const scrollTo4807 = () => {
+        setOpened(false)
+        return window.scrollTo({top: 4807, behavior: 'smooth'})
+    }
+     const scrollTo5758 = () => {
+        setOpened(false)
+        return window.scrollTo({top: 5758, behavior: 'smooth'})
+    }
+
 
     const mobileMenu = () => {
         setOpened(!opened)
@@ -50,11 +71,11 @@ export const Header  = () => {
                         <img src={close} onClick={mobileMenu} alt="" />
                         {/* <span onClick={mobileMenu}>X</span> */}
                     </div>
-                    <p>Empresa</p>
-                    <p>Camisaria</p>
-                    <p>Alfaiataria</p>
-                    <p>Depoimentos</p>
-                    <p>Depoimentos</p>
+                    <p onClick={scrollTo565}>Empresa</p>
+                    <p onClick={scrollTo3300}>Camisaria</p>
+                    <p onClick={scrollTo4051}>Alfaiataria</p>
+                    <p onClick={scrollTo4807}>Depoimentos</p>
+                    <p onClick={scrollTo5758}>Contato</p>
                     <div className='contato'>
                         <h1>Telefones</h1>
                         <p>+55 (11) 3088-0757</p>
@@ -74,7 +95,7 @@ export const Header  = () => {
 
                 <S.Menu>
                     <ul>
-                        <li onClick={scrollTo500}>Empresa</li>
+                        <li onClick={scrollTo537}>Empresa</li>
                         <li onClick={scrollTo900}>Ternos</li>
                         <li onClick={scrollTo2200}>Camisaria</li>
                         <li onClick={scrollTo3300}>Depoimentos</li>
