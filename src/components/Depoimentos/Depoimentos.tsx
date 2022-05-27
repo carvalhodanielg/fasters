@@ -19,6 +19,16 @@ export const Depoimentos = () => {
         
     }
 
+    const handleClickLeft = () => {
+
+        if(index === (0)){
+            setIndex(depoimentos.length-1);
+        }else{
+            setIndex(index-1) 
+        }
+        
+    }
+
     return (
         <S.Depoimentos index={index}>
             <h1>Depoimentos</h1>
@@ -26,7 +36,7 @@ export const Depoimentos = () => {
             <img id='foto' src={depoimentos[index].foto} alt="" />
 
             <div className='text'>
-                <img className='arrow' src={left} alt="" />
+                <img className='arrow' src={left} alt=""  onClick={handleClickLeft}/>
                 
                 <div className='depoimento'>
                     <p>{depoimentos[index].depoimento}</p>

@@ -7,7 +7,7 @@ export const Alfaiataria = () => {
 
     return(
         <S.Camisaria row={true}>
-            <div>
+            <div id='photo'>
                 <img src={alfaiataria} alt="" />
             </div>
             <div className='text'>

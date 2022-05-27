@@ -21,14 +21,25 @@ export const Contato = () => {
 
                         <div className='form'>
                             <div className='formInputs'>
-                                <label htmlFor="nome">Nome</label>
-                                <input id="nome" type="text" placeholder='Nome' />
+                                
+                                <div className='control'>
+                                    <label htmlFor="nome" className='label'>Nome</label>
+                                    <input id="nome" type="text" placeholder='Nome' />
+                                </div>
+                                                               
+                                <div className='control'>
+                                    <label htmlFor="email" className='label'>E-mail</label>
+                                    <input id='email' type="text" placeholder='E-mail' />
+                                </div>
 
-                                <label htmlFor="email">E-mail</label>
-                                <input id='email' type="text" placeholder='E-mail' />
+                                <div className='control'>
+                                    <label htmlFor="mensagem" className='label'>Mensagem</label>
+                                    <textarea id='mensagem' placeholder='Mensagem'  />
+                                </div>
 
-                                <label htmlFor="mensagem">Mensagem</label>
-                                <textarea id='mensagem' placeholder='Mensagem' />
+                                
+
+                                
                             </div>
                             <button>Enviar Mensagem!</button>
                         </div>

@@ -9,6 +9,10 @@ export const Depoimentos = styled.section<{index: number}>`
     text-align: center;
     padding: 62px 0;
 
+    @media(max-width: 1200px){
+        height: fit-content;
+        padding: 20px 0;
+    }
 
     h1{
         font-family: 'Cormorant', serif;
@@ -33,6 +37,10 @@ export const Depoimentos = styled.section<{index: number}>`
         align-items: center;
         margin: 0 150px;
 
+        @media(max-width: 1200px){
+            margin: 0 50px;;
+        }
+
         .depoimento{
             width: 80%;
             height: 150px;
@@ -42,6 +50,14 @@ export const Depoimentos = styled.section<{index: number}>`
             color: #C4C4C4;
             font-style: italic;
             margin-top: 16px;
+
+            @media(max-width: 1200px){
+                 height: 300px;;
+            }
+
+            @media(max-width: 400px){
+                 height: 520px;;
+            }
         }  
     }
 

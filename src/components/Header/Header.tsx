@@ -1,6 +1,7 @@
 import * as S from './HeaderStyle'
 import logoWhite from '../../assets/images/logo-white.png'
 import logoBlack from '../../assets/images/logo-black.png'
+import menu from '../../assets/images/menu.svg'
 import { useEffect, useState } from 'react';
 
 
@@ -22,6 +23,7 @@ export const Header  = () => {
             <S.Logo>
                 <img src={headerStatus ? logoBlack : logoWhite} alt="Renee Trajar Logo" />
             </S.Logo>
+            <img src={menu} alt="" id='menu' />
             <S.Menu>
                 <ul>
                     <li>Empresa</li>

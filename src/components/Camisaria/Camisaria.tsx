@@ -6,8 +6,8 @@ export const Camisaria = () => {
 
     return(
         <S.Camisaria row={false}>
-            <div>
-                <img src={camisaria} alt="" />
+            <div id='photo'>
+                <img src={camisaria} alt=""/>
             </div>
             <div className='text'>
                 <h1>Camisaria</h1>

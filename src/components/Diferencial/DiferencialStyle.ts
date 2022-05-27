@@ -6,6 +6,10 @@ export const Diferencial = styled.section`
     display: flex;
     padding: 50px 0;
     justify-content: center;
+    
+    @media(max-width: 1200px){
+        display: none;
+    }
 `
 
 export const DifItem = styled.div`

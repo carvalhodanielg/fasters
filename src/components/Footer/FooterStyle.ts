@@ -14,10 +14,21 @@ export const Footer = styled.footer`
     font-size: 14px;
     color: #BDBDBD;
 
+    @media(max-width: 1200px){
+        /* display: none; */
+        flex-direction: column;
+        padding: 30px 0;
+    }
+
     #top{
         height: 40px;
         width: 40px;
         cursor: pointer;
+        @media(max-width: 1200px){
+            align-self: flex-end;
+            margin: 0 20px 20px 0;
+        /* display: none; */
+    }
     }
 
 
@@ -25,6 +36,10 @@ export const Footer = styled.footer`
         margin-top: 60px;
         margin-left: 350px;
         color: #4F4F4F;
+        @media(max-width: 1200px){
+            margin: 0;
+            text-align: center;
+        }
     }
 
     #whats{
@@ -33,6 +48,10 @@ export const Footer = styled.footer`
         bottom: 180px;
         right: 31px;
         cursor: pointer;
+        
+        @media(max-width: 1200px){
+        /* display: none; */
+    }
     }
 
 `

@@ -15,6 +15,11 @@ export const Promo = styled.section`
     align-items: center;
     padding: 0 170px;
 
+    @media(max-width: 1200px){
+        height: fit-content;
+        padding-bottom: 50px;
+    }
+
     .text{
         color: white;
         margin-right: 30px;
@@ -50,7 +55,14 @@ export const Promo = styled.section`
         }
 
         
+        
     }
+
+    .photo{
+            @media(max-width: 1200px){
+                 display: none;
+             }
+        }
     
 `
 

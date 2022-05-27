@@ -8,6 +8,11 @@ export const Contato = styled.section`
     text-align: center;
     padding: 50px 150px;
 
+    @media(max-width: 1200px){
+       padding: 50px 50px;
+       justify-content: center;
+    }
+
     h1{
         font-family: 'Cormorant', sans-serif;
         font-weight: 300;
@@ -18,11 +23,24 @@ export const Contato = styled.section`
 
     .wrapper{
         display: flex;
+        flex-wrap: wrap-reverse;
+
+        @media(max-width: 1200px){
+            padding: 50px 0px;
+            align-items: center;
+        }
     }
+
 
     .info{
         width: 400px;
         text-align: left;
+
+        @media(max-width: 1200px){
+            text-align: center;
+            margin: 40px auto;
+            width: 100%;
+         }
 
         h2{
                 font-family: 'Lato', sans-serif;
@@ -72,6 +90,26 @@ export const Contato = styled.section`
         margin-left: 120px;
         flex: 1;
 
+        @media(max-width: 1200px){
+        margin-left: 0;
+         }
+
+        .control{
+            display: flex;
+            flex-direction: column;
+
+            &:focus-within{
+                .label{
+                    color: #1C86A4;
+                }
+
+                input{
+                    color: transparent;
+                }
+            }
+
+        }
+
         .formInputs{
             text-align: left;
             display: flex;
@@ -82,7 +120,14 @@ export const Contato = styled.section`
                 font-family: 'Lato', sans-serif;
                 font-weight: 300;
                 font-size: 12px;
-                color: #1C86A4;
+                color: transparent;
+                transition: ease-in-out .5s;
+                opacity: 1;
+
+                :focus-within{
+                    color: blue;
+                    opacity: 0;
+                }
 
             }
 
@@ -95,7 +140,12 @@ export const Contato = styled.section`
                 :focus{
                     outline: none;
                     border: 1px solid #E0E0E0;
+
+                    ::placeholder{
+                        color: transparent;
+                    }
                 }
+
 
             }
 
@@ -104,11 +154,11 @@ export const Contato = styled.section`
                 height: 77px;;
                 margin-bottom: 18px;
                 border-radius: 3px;
-                
+                resize: none;
                 :focus{
                     outline: none;
                     border: 1px solid #E0E0E0;
-                }
+                } 
 
             }
         }

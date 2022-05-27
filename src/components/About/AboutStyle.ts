@@ -20,6 +20,11 @@ export const About = styled.section`
         flex-direction: column;
         justify-content: space-between ;  
         width: 600px; 
+       
+        @media(max-width: 1200px){
+        width: 80%;
+        
+        }
 
         h1{
             font-family: 'Cormorant', sans-serif;
@@ -64,5 +69,12 @@ export const About = styled.section`
             font-style: italic;
         }
 
+    }
+
+    button{
+        @media(max-width: 1200px){
+            align-self: center;
+            margin-top: 30px;
+         }
     }
 `
