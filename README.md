@@ -1,46 +1,106 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h1>Landing Page Trajar</h1>
+  
+  <p>
+    Bem vindos ao meu projeto!! 
+  </p>
+  
+  
+<!-- Badges -->
+<p>
 
-## Available Scripts
+  <a href="">
+    <img src="https://img.shields.io/github/last-commit/Louis3797/awesome-readme-template" alt="last update" />
+  </a>
+  
+</p>
+   
+<h4>
+    <a href="https://fasters.vercel.app/">Ver demonstração | Teste</a>
+</div>
 
-In the project directory, you can run:
+<br />
 
-### `npm start`
+<!-- About the Project -->
+## :star2: O projeto:
+  
+  O projeto consiste na criação de uma Landing Page responsiva para a Renee Trajar.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- Screenshots -->
+### :camera: Screenshots
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<div align="center"> 
+  <img src="https://user-images.githubusercontent.com/100332887/170781342-e3c5160e-fa6c-46d2-b5a8-d8e54e742b4f.png" alt="screenshot" />
+  
+  <img src="https://user-images.githubusercontent.com/100332887/170781363-cc613986-473b-43e0-a9c8-33acf60f6df4.png" alt="screenshot" />
+  
+  <img src="https://user-images.githubusercontent.com/100332887/170781397-11804ea6-09d1-43e1-a852-e2cb6129d408.png" alt="screenshot" />
+  
+  <img src="https://user-images.githubusercontent.com/100332887/170781425-05dcfb8c-a251-476c-8a45-fa90ad8de9e3.png" alt="screenshot" />
+  
+  <img src="https://user-images.githubusercontent.com/100332887/170781474-d859d215-9a2c-4f73-81ee-2e4cb8851241.png" alt="screenshot" />
+  
+  <img src="https://user-images.githubusercontent.com/100332887/170781499-88201a0e-39fb-4593-bb6a-c40b676adaba.png" alt="screenshot" />
+  
+  <img src="https://user-images.githubusercontent.com/100332887/170781522-b8a0e7eb-9389-42e3-8378-da578420e5f5.png" alt="screenshot" />
+  
+  <img src="https://user-images.githubusercontent.com/100332887/170781556-29cadb56-ce10-494a-8db5-ba0f078fb406.png" alt="screenshot" />
+  
+  <img src="https://user-images.githubusercontent.com/100332887/170781567-ba47218a-fc93-405c-8902-2f24e72fb8de.png" alt="screenshot" />
+  
+  <img src="https://user-images.githubusercontent.com/100332887/170781590-48cbe9de-5586-44dd-8632-acc4673ef0fa.png" alt="screenshot" />
+</div>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- TechStack -->
+### :space_invader: Tecnologias
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  <ul>
+    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/javascript">JavaScript</a></li>
+    <li><a href="https://www.typescriptlang.org/">TypeScript</a></li>
+    <li><a href="https://pt-br.reactjs.org/">React</a></li>
+    <li><a href="https://styled-components.com//">Styled components</a></li>
+  </ul>
+  
+<!-- Run Locally -->
+### :running: Run Locally
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Running the project
+  
+Clone the project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  git clone https://github.com/carvalhodanielg/fasters.git
+```
 
-### `npm run eject`
+Go to the project directory
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+  cd my-project
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+  npm install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Start the server
 
-## Learn More
+```bash
+  npm start
+```
+  
+<!-- Contact -->
+## :handshake: Contato
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Daniel Carvalho - [Linkedin](https://www.linkedin.com/in/carvalhodanielg/) - carvalhodanielg@gmail.com
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+<!-- Acknowledgments -->
+## :gem: Acknowledgements
