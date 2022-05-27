@@ -4,6 +4,7 @@ import Alfaiataria from './components/Alfaiataria';
 import Banner from './components/Banner';
 import Camisaria from './components/Camisaria';
 import Depoimento from './components/Depoimento';
+import Depoimentos from './components/Depoimentos';
 import Diferencial from './components/Diferencial';
 import Header from './components/Header';
 import Promo from './components/Promo';
@@ -22,6 +23,7 @@ function App() {
     <Promo/>
     <Camisaria/>
     <Alfaiataria/>
+    <Depoimentos/>
 
     <div style={{height: '700px'}}>
 

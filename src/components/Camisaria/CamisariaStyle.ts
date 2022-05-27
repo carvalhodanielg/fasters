@@ -2,12 +2,12 @@ import styled from 'styled-components'
 import Button from '../Generic'
 
 export const Camisaria = styled.section<{row: boolean}>`
-    height: 600px;
+    min-height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: ${props => (props.row ? 'row-reverse' : 'row')};
-
+    flex-wrap: wrap;
     .text{
         height: 65%;
         width: 560px;
