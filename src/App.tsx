@@ -7,6 +7,7 @@ import Contato from './components/Contato';
 import Depoimento from './components/Depoimento';
 import Depoimentos from './components/Depoimentos';
 import Diferencial from './components/Diferencial';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Promo from './components/Promo';
 
@@ -26,9 +27,7 @@ function App() {
     <Alfaiataria/>
     <Depoimentos/>
     <Contato/>
-    <div style={{height: '700px'}}>
-
-    </div>
+    <Footer/>
     </>
   );
 }
