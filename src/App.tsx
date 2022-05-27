@@ -3,6 +3,7 @@ import About from './components/About';
 import Alfaiataria from './components/Alfaiataria';
 import Banner from './components/Banner';
 import Camisaria from './components/Camisaria';
+import Contato from './components/Contato';
 import Depoimento from './components/Depoimento';
 import Depoimentos from './components/Depoimentos';
 import Diferencial from './components/Diferencial';
@@ -24,7 +25,7 @@ function App() {
     <Camisaria/>
     <Alfaiataria/>
     <Depoimentos/>
-
+    <Contato/>
     <div style={{height: '700px'}}>
 
     </div>

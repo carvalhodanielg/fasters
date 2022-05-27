@@ -42,9 +42,7 @@ export const Depoimentos = styled.section<{index: number}>`
             color: #C4C4C4;
             font-style: italic;
             margin-top: 16px;
-        }
-
-        
+        }  
     }
 
     #nome{
@@ -80,10 +78,6 @@ export const Depoimentos = styled.section<{index: number}>`
                 &:nth-child(${props => props.index}){
                     fill: #014561;
                 }
-
             }
-            
         }
-
-
 `
