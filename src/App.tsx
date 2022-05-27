@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import About from './components/About';
+import Alfaiataria from './components/Alfaiataria';
 import Banner from './components/Banner';
 import Camisaria from './components/Camisaria';
 import Depoimento from './components/Depoimento';
@@ -20,6 +21,7 @@ function App() {
     <Diferencial/>
     <Promo/>
     <Camisaria/>
+    <Alfaiataria/>
 
     <div style={{height: '700px'}}>
 

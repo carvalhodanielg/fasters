@@ -1,10 +1,11 @@
 import * as S from './CamisariaStyle'
 import camisaria from '../../assets/images/camisaria1.png'
 import Button from '../Generic'
+
 export const Camisaria = () => {
 
     return(
-        <S.Camisaria>
+        <S.Camisaria row={false}>
             <div>
                 <img src={camisaria} alt="" />
             </div>

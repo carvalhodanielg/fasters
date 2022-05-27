@@ -1,17 +1,19 @@
 import styled from 'styled-components'
 import Button from '../Generic'
 
-export const Camisaria = styled.section`
-    height: 550px;
+export const Camisaria = styled.section<{row: boolean}>`
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: ${props => (props.row ? 'row-reverse' : 'row')};
 
     .text{
-        height: 60%;
+        height: 65%;
         width: 560px;
         border: 1px solid #E5E5E5;
-        border-left: none;
+        
+        /* border-left: none; */
         padding-left: 62px;
  
 
@@ -21,6 +23,7 @@ export const Camisaria = styled.section`
             font-size: 62px;
             color: #014561;
             text-transform: uppercase;
+            margin-top: 57px;
         }
 
         h2{
